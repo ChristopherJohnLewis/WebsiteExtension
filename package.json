@@ -1,6 +1,6 @@
 {
-  "name": "my-firebase-extension",
-  "version": "1.0.0",
+  "name": "WebsiteExtension",
+  "version": "2.0.0",
   "description": "A Firefox WebExtension that uses Firebase, bundled by Rollup.",
   "scripts": {
     "build": "rollup -c"

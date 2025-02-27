@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "DBPoster",
-    "version": "1.0",
+    "version": "2.0",
   
     "description": "Adds a browser action icon to the toolbar.",
     "icons": {
@@ -10,7 +10,7 @@
     "background": {
       "scripts": ["dist/bundle.js"]
     },
-    "permissions": ["activeTab", "tabs"],
+    "permissions": ["activeTab", "tabs", "storage"],
     "browser_action": {
       "default_icon": "icons/AngryCAt.png",
       "default_title": "DBPoster",
