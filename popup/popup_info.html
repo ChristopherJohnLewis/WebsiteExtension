@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup_info.css"/>
+  </head>
+
+  <body>
+    <form id="popup-content">
+      <label for="description">description:</label> <textarea data-input="description" id="description" name="description"></textarea>
+      <br>
+      <label>
+        <input type="checkbox" name="tags" value="Graphics">
+        Graphics
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="tags" value="Human Computer Interaction">
+        Human Computer Interaction
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="tags" value="User Experience">
+        User Experience
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="tags" value="Game Development">
+        Game Development
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="tags" value="Software Engineering">
+        Software Engineering
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="tags" value="Teaching">
+        Teaching
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="tags" value="Cloud">
+        Cloud
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="tags" value="Web Development">
+        Web Development
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" name="tags" value="Machine Learning">
+        Machine Learning
+      </label>
+      <br><br>
+      <label for="rating">rating:</label> <input data-input="rating" id="rating" name="rating">
+      <br>
+      <label for="type">type:</label> <input data-input="type" id="type" name="type">
+      <br>
+      <button type="submit">Submit</button>
+      <button data-button="clear">clear</button>
+    </div>
+    <div id="error-content" class="hidden">
+      <p>Can't web page.</p>
+      <p>Try a different page.</p>
+    </div>
+    <script type="module" src="../dist/bundle.js"></script>
+  </body>
+</html>

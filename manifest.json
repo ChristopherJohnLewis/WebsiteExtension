@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "DBPoster",
+    "version": "1.0",
+  
+    "description": "Adds a browser action icon to the toolbar.",
+    "icons": {
+      "650": "icons/AngryCAt.png"
+    },
+    "background": {
+      "scripts": ["dist/bundle.js"]
+    },
+    "permissions": ["activeTab", "tabs"],
+    "browser_action": {
+      "default_icon": "icons/AngryCAt.png",
+      "default_title": "DBPoster",
+      "default_popup": "popup/popup_info.html"
+    }
+  }
+  
